@@ -1,4 +1,15 @@
 # How to Make a ToolTip for VR
+## Download and open the Week 8 Unity Project
+1. Download the existing Week 8 VRTut project if you have not done it last week
+2. Open UnityHub → Open → Add project from disk → (select) VRTut (folder)
+3. Click and open VRTur Unity project
+4. You should see the server room from Week 8
+
+## Create Cube (3D Object)
+
+1. Right click in the hierarchy and select `3D Object` and then select `Cube`.
+2. Left Click on the `Cube` and change the position of the cube under `Transform` in the Inspector window to `(X: -1, Y: 0.4, Z: 0)`
+3. (Optional) You can click on `Environment` under the hierarchy and deselect the checkbox below the Inspector window to hide the Environment
 
 ## Create Tooltip (Empty GameObject)
 
@@ -52,3 +63,8 @@
 5. Under the hierachy, drag the Canvas object out of PointB object so that it is no longer a child of it.
 6. Select the PointB object and under the Inspector, set the Y rotation to 180.
 7. Under the hierachy, drag back the Canvas object into PointB so that it is a child of it.
+
+
+## References
+
+[YouTube - How To Make a Tooltip for VR – Unity Tutorial](https://www.youtube.com/watch?v=xyoswWxj_6o&t=405s)
