@@ -52,3 +52,26 @@
 5. Under the hierachy, drag the Canvas object out of PointB object so that it is no longer a child of it.
 6. Select the PointB object and under the Inspector, set the Y rotation to 180.
 7. Under the hierachy, drag back the Canvas object into PointB so that it is a child of it.
+
+# How to use ECS to improve the performance of Game Objects
+
+## Importing the ECS Packages
+
+1. Navigate to Package Manager under the Window Tab
+2. Install the Entities and Entities Graphics Package
+
+## Creating an Entity
+
+1. First Create a `Subscene`
+2. Then place a GameObject under the SubScene to create an `Entity`
+
+## Creating an Component
+1. We can create a `Struct` which would inherit from `IEComponentData`
+2. Then, we would then place related data into the struct
+
+## Creating an System
+1. We would first create a system that would inherit from `SystemBase`
+2. Then, we would then create an `onUpdate` Method that would update the component Data
+3. Then, we would use an `SystemAPI.Query` to locate and manipulate the component on the entity.
+
+
